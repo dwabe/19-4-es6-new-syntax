@@ -1,0 +1,26 @@
+{
+  "name": "19-4-es6-new-syntax",
+  "version": "1.0.0",
+  "description": "new es-6 syntax excercises",
+  "main": "script.js",
+  "dependencies": {
+    "braces": "^3.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwabe/19-4-es6-new-syntax.git"
+  },
+  "author": "bebe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwabe/19-4-es6-new-syntax/issues"
+  },
+  "homepage": "https://github.com/dwabe/19-4-es6-new-syntax#readme"
+}
