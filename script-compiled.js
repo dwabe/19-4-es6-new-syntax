@@ -13,3 +13,31 @@ var multiply = function multiply(a) {
 };
 
 console.log(multiply(5));
+
+// Exercise 3
+var average = function average() {
+  for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+    args[_key] = arguments[_key];
+  }
+
+  return args.reduce(function (acc, cur) {
+    return acc + cur;
+  }) / args.length;
+};
+
+console.log(average(1)); // 1
+console.log(average(1, 3)); // 2
+console.log(average(1, 3, 6, 6)); // 4
+
+// Exercise 4
+var grades = [1, 5, 5, 5, 4, 3, 3, 2, 1];
+
+console.log(average.apply(undefined, grades));
+
+// Exercise 5
+var tab = [1, 4, 'Iwona', false, 'Nowak'];
+var firstname = tab[2],
+    lastname = tab[4];
+
+
+console.log(firstname + ' ' + lastname);
